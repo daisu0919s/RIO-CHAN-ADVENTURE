@@ -203,7 +203,7 @@ class App:
     def draw_game_clear(self):
         """ゲームクリア画面の描画"""
         pyxel.cls(6)
-        game_clear_text = "GET YOUR BOUQUET"
+        game_clear_text = "YOU GOT A BOUQUET"
         restart_text = "PRESS R TO RESTART"
         pyxel.text((pyxel.width - len(game_clear_text) * 4) // 2, 40, game_clear_text, 8)
         pyxel.text((pyxel.width - len(restart_text) * 4) // 2, 80, restart_text, 8)
